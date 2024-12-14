@@ -1,0 +1,20 @@
+#BIODATA
+
+Fullname = input("Enter your name: ")
+Age = input("Age: ")
+Birthdate = input("Birthdate: ")
+Birthplace = input("Birthplace: ")
+Gender = input("Gender: ")
+Nationality = input("Nationality: ")
+Marital_Status = input("Marital Status: ")
+Religion = input("Religion: ")
+Address = input("Address: ")
+Contact_No = input("Contact Number: ")
+Email_Address = input("Email Address: ")
+Skills = input("Skills: ")
+Languages = input("Languages Spoken: ")
+Hobbies = input("Hobbies: ")
+
+print("\nBio-Data Information")
+print("==========================================")
+print("My name is" + Fullname + "I was born on" + Birthdate + " in " + Birthplace + " . I am " + Gender + " . Also I am  " + Marital_Status + " . I follow the " + Religion + " religion. I live in "  + Address + " . You can contact me with my number " + Contact_No + " and " + Email_Address + " . My skills and hobbies are " + Skills + ". I enjoy " + Hobbies + " . " ) 
