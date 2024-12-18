@@ -1,0 +1,16 @@
+fullname = input("Please input your Full Name: ")
+age = input("Please input your Age: ")
+gender = input("Please input your Gender: ")
+birthdate = input("Please input your BirthDate: ")
+address = input("Please input your Address: ")
+phone_number = input("Please input your Phone Number: ")
+email = input("Please input your Email: ")
+nationality = input("Please input your Nationality: ")
+religion = input("Please input your Religion: ")
+marital_status = input("Please input your Marital Status: ")
+hobbies = input("Please input your Hobbies: ")
+skills = input("Please input your Skills: ")
+
+print("\nI am " + fullname + " and " + age + " years old, identified as " + gender + ", was born on " + birthdate+ ", lives at " + address +  ".\nMy Phone Number is " + phone_number + " and my email is " + email +  ". " + fullname + " is " + nationality + " and is " + marital_status + ". My hobbies are " + hobbies + " \nand have skills on " + skills + "." )
+
+print("\n\t\t\t\t\t\t\t\t\t\t Your Biodata \nName: " + fullname + "\nAge: " , age + "\nGender: " + gender + "\nDate of Birth: " + birthdate + "\nAddress: " + address + "\nPhone Number: " + phone_number + "\nEmail: " + email +  "\nNationality: " + nationality + "\nReligion: " + religion + "\nMarital Status: " + marital_status + "\nHobbies: " + hobbies + "\nSkills: " + skills )
